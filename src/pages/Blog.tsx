@@ -1,6 +1,6 @@
 // src/pages/Blog.tsx
 import BlogCard from "../components/BlogCard";
-import type { BlogPost } from "./types/blog";
+import type { BlogPost } from "../types/blog";
 
 const posts: BlogPost[] = [
   {

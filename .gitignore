@@ -1,3 +1,22 @@
+# Env files (secrets, API keys, etc.)
+.env
+.env.*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite cache
+.vite/
+
+# Coverage/testing
+coverage/
+*.lcov
+
+# Optional: Mac + Windows trash
+.Trashes
+ehthumbs.db
+Thumbs.db
+
 # Logs
 logs
 *.log

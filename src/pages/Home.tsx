@@ -1,36 +1,18 @@
 // src/pages/Home.tsx
 import { Link } from "react-router-dom";
+import { blogs } from "../data/blogs";
 
-// Mock data right here for now (we'll move it later)
-const blogPosts = [
-  {
-    id: "1",
-    title: "Finding Your Voice",
-    excerpt: "Ways to express yourself confidently ✨",
-    date: "Sep 2025"
-  },
-  {
-    id: "2", 
-    title: "Building Safe Spaces",
-    excerpt: "How to recognize + create supportive community.",
-    date: "Aug 2025"
-  },
-  {
-    id: "3",
-    title: "Self-Care Tips", 
-    excerpt: "Simple steps to protect your heart & mind 🧘",
-    date: "Jul 2025"
-  }
-];
-
-// Simple BlogCard component right here
-function BlogCard({ title, excerpt, date }: { title: string; excerpt: string; date: string }) {
+// Simple BlogCard component
+function BlogCard({ id, title, excerpt, date }: { id: string; title: string; excerpt: string; date: string }) {
   return (
-    <div className="bg-white shadow rounded p-6 hover:shadow-neonPink/40 transition">
+    <Link
+      to={`/blog/${id}`}
+      className="block bg-white shadow rounded p-6 hover:shadow-neonPink/40 transition"
+    >
       <h3 className="text-xl font-bold mb-2">{title}</h3>
       <p className="text-gray-700 mb-2">{excerpt}</p>
       <p className="text-xs text-gray-500">{date}</p>
-    </div>
+    </Link>
   );
 }
 
@@ -39,9 +21,25 @@ export default function Home() {
     <div className="w-full">
       {/* 🌈 Hero Section */}
       <section className="bg-gradient-to-r from-neonPink to-neonGreen text-white text-center py-20 px-6">
-        <h1 className="text-4xl md:text-6xl font-heading font-bold mb-6">
-          Be Proud. Be Loud. Be You 🌈
+        {/* Headline */}
+        <h1 className="text-4xl md:text-6xl font-heading font-bold mb-4 drop-shadow-lg">
+          Speak Loud. Live Real.
         </h1>
+
+        {/* Tagline */}
+        <p className="text-lg md:text-xl font-medium max-w-2xl mx-auto mb-6">
+          A no-filter zone where teens get to be unapologetically themselves.
+        </p>
+
+        {/* Mission Statement */}
+        <p className="max-w-3xl mx-auto text-base md:text-lg text-white/90 mb-10 leading-relaxed">
+          Outloud Teens is more than just a blog—it's a megaphone for your generation. 
+          Here, real stories, bold ideas, and raw truths come to life without judgment. 
+          This is where you get loud about what matters and live real in a world that 
+          often tries to quiet you down.
+        </p>
+
+        {/* CTAs */}
         <div className="space-x-4">
           <Link
             to="/community"
@@ -58,14 +56,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 📰 Blog Preview - NOW USING BLOGCARD */}
+      {/* 📰 Blog Preview */}
       <section className="max-w-6xl mx-auto py-16 px-6">
         <h2 className="text-3xl font-heading font-bold text-center mb-10">
           Latest from the Blog
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {blogPosts.map((post) => (
-            <BlogCard key={post.id} {...post} />
+          {blogs.slice(0, 3).map((post) => (
+            <BlogCard key={post.id} id={post.id} title={post.title} excerpt={post.excerpt} date={post.date} />
           ))}
         </div>
       </section>

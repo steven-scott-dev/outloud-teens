@@ -1,4 +1,4 @@
-import { BlogPost } from "../types/blog";
+import type { BlogPost } from "../types/blog";
 import { Link } from "react-router-dom";
 
 export default function BlogCard({ id, title, excerpt, date, image }: BlogPost) {

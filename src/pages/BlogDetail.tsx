@@ -1,11 +1,16 @@
 // src/pages/BlogDetail.tsx
 import { useParams, Link } from "react-router-dom";
 import { blogs } from "../data/blogs";
+import ReactMarkdown from "react-markdown";
 
 export default function BlogDetail() {
+  // ✅ grab the ID from the URL
   const { id } = useParams<{ id: string }>();
+
+  // ✅ Find the relevant blog post
   const post = blogs.find((b) => b.id === id);
 
+  // ✅ Handle case where no post is found
   if (!post) {
     return (
       <section className="max-w-4xl mx-auto py-16 px-6 text-center">
@@ -23,6 +28,7 @@ export default function BlogDetail() {
     );
   }
 
+  // ✅ Render the found blog post
   return (
     <article className="max-w-3xl mx-auto py-16 px-6">
       {/* Hero Image */}
@@ -44,14 +50,14 @@ export default function BlogDetail() {
         Published {post.date}
       </p>
 
-      {/* Content */}
-      <div className="prose prose-lg max-w-none text-gray-800 leading-relaxed">
-        <p className="text-xl text-gray-700 mb-6 font-medium">
-          {post.excerpt}
-        </p>
-        <div className="whitespace-pre-line">
-          {post.content}
-        </div>
+      {/* Excerpt */}
+      <p className="text-xl text-gray-700 mb-8 font-medium italic border-l-4 border-neonPink pl-4">
+        {post.excerpt}
+      </p>
+
+      {/* Content (Markdown rendered) */}
+      <div className="prose prose-lg max-w-none text-gray-800 leading-relaxed prose-headings:font-heading prose-a:text-neonPink hover:prose-a:underline">
+        <ReactMarkdown>{post.content || ""}</ReactMarkdown>
       </div>
 
       {/* Back Link */}
@@ -64,7 +70,7 @@ export default function BlogDetail() {
         </Link>
       </div>
 
-      {/* Optional: Related Posts or CTA */}
+      {/* CTA */}
       <div className="mt-12 bg-gray-50 rounded-lg p-6 text-center">
         <h3 className="text-xl font-heading font-bold mb-2">
           Want to share your story?
