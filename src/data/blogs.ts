@@ -202,4 +202,132 @@ Remember, self-care isn't a one-time fix; it's an ongoing practice. Find what wo
   `
 },
 
+{
+  id: "4",
+  title: "Navigating Friendships & Relationships",
+  excerpt: "Friendships and first crushes can be amazing… and messy. Here’s how to keep it real, safe, and actually good for you.",
+  date: "Jun 2025",
+  image: "/assets/blog-relationships.webp",
+  content: `
+# Navigating Friendships & Relationships 💬  
+
+Let’s be real — friendships and relationships can be the best part of being a teen… but they can also be straight up messy. One day y’all are vibin’, next day it’s drama central. And when you add figuring out your identity on top of it? Yeah, it’s a lot.  
+
+But here’s the thing: your circle should hype you up, not drag you down.  
+
+---
+
+## Friendship Red Flags 🚩 (They’re not the vibe)  
+If your so-called “friend” is doing this, it’s giving ✖️ energy:  
+- Only hits you up when it benefits them.  
+- Doesn’t get (or straight up ignores) your pronouns/identity.  
+- Competes with you instead of celebrating you.  
+- Makes you feel drained every time you hang out.  
+
+🗣 Reminder: You don’t owe anyone your energy if they’re not respecting you.  
+
+---
+
+## Friendship Green Flags ✅ (Keep these real ones)  
+That friend who:  
+- Gasses you up when you shine 🔥.  
+- Actually listens and respects your boundaries.  
+- Checks in when you’re quiet.  
+- Makes you laugh until your stomach hurts.  
+
+That’s the type of crew you deserve.  
+
+---
+
+## Crushes & First Loves 💕 (Exciting but don’t lose yourself)  
+We all know crushes have you acting different. But remember:  
+- **Be honest:** Don’t ghost your feelings (or theirs). Keep it 100.  
+- **Consent is 🔑:** Always check in, no assumptions.  
+- **Respect the timing:** Some people aren’t out yet, don’t out them for clout.  
+- **Don’t settle:** If it feels off, trust your gut.  
+
+---
+
+## Boundaries = Self-Respect 🛡  
+Setting boundaries doesn’t make you “mean,” it makes you strong. Try:  
+- “I need some space right now.”  
+- “Don’t share that, it’s personal.”  
+- “That made me uncomfortable, can you not?”  
+
+Good friends & partners will respect it. If they don’t? That’s your sign.  
+
+---
+
+## The Bottom Line ✨  
+Friendships & relationships should feel safe, fun, and like you can be your full self. If it’s constant drama, gaslighting, or making you shrink? ✂️ Cut it off.  
+
+Surround yourself with people who say: *“You’re enough. Just as you are.”*  
+That’s the vibe. 💖  
+
+*— The Outloud Teens Team*  
+  `
+},
+
+{
+  id: "5",
+  title: "Finding Your Voice & Advocating for Yourself",
+  excerpt: "Speaking up isn’t always easy, but your voice matters. Here’s how to stand strong, be real, and own your story.",
+  date: "May 2025",
+  image: "public/assets/blog-voice.webp", // We'll regenerate this image next
+  content: `
+# Finding Your Voice & Advocating for Yourself 🎤✨  
+
+Yo, let’s be real. Sometimes the loudest voices around us are the ones telling us who to be, what to like, or even who to love. It’s a whole vibe, and honestly, it can be a lot. But here’s the tea: *your* voice is powerful, and you deserve to use it. Period.  
+
+---
+
+## What Does “Finding Your Voice” Even Mean? 🎯  
+It’s not about being extra or shouting the loudest. Nah. It’s about:  
+- **Speaking your truth:** Saying what’s on your mind, even when it’s tough.  
+- **Asking for what you need:** Setting boundaries, asking for support, knowing your worth.  
+- **Standing confidently in who you are:** Owning your identity, your style, your whole self.  
+
+It’s about being authentic, not just for the 'gram, but for *you*.  
+
+---
+
+## Everyday Advocacy: It’s Giving Main Character Energy 💪  
+Advocacy isn’t always about big protests or going viral. Sometimes, it’s the little things that make a huge difference. It’s giving main character energy in your own life:  
+- **Correcting someone on your name or pronouns:** “Hey, actually it’s they/them.” Simple, direct, powerful.  
+- **Asking teachers for inclusive language:** “Could we use more gender-neutral terms in class?”  
+- **Checking in on classmates others overlook:** Being a real one for someone who needs it.  
+- **Calling out microaggressions:** When someone says something low-key offensive, you can be like, “Nah, that’s not it.”  
+
+These small acts? They’re not just for you. They build a better vibe for everyone.  
+
+---
+
+## How to Speak Up Without Burning Out 🔋  
+Being an advocate can be draining, for real. Don’t let it leave you on E.  
+- **Pick your moments:** You don’t have to fight every battle. Choose what’s important to you.  
+- **Find your squad:** Life’s easier with supportive friends, mentors, or even online communities backing you up. They get it.  
+- **Recharge:** Take breaks when advocacy feels like too much. Your worth isn’t tied to always being “on.” Go touch grass, listen to your fave playlist, chill.  
+
+---
+
+## Confidence Check: You’re the Vibe ✨  
+Sometimes you just need to hype yourself up. Try these affirmations:  
+- “My story matters, no cap.”  
+- “I deserve respect, always.”  
+- “Even small actions make big change.”  
+- “I am the vibe.”  
+
+---
+
+## Your Story = Your Power 🌈  
+OutLoud Teens exists because one idea turned into a voice, and then into a whole community. That’s the power of speaking up.  
+
+So when you feel ready — step up, be real, and speak loud.  
+
+We’re all listening. And we’re here for it. 💜  
+
+*— The OutLoud Teens Team*  
+  `
+},
+
 ];
