@@ -8,6 +8,7 @@ import BlogDetail from "./pages/BlogDetail";
 import Resources from "./pages/Resources";
 import Community from "./pages/Community";
 import Contact from "./pages/Contact";
+import Resources from './pages/Resources';
 
 export default function App() {
   return (
@@ -22,6 +23,8 @@ export default function App() {
           <Route path="/community" element={<Community />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog/:id" element={<BlogDetail />} />
+          <Route path="/resources" element={<Resources />} />
+          
         </Routes>
       </main>
       <Footer />
