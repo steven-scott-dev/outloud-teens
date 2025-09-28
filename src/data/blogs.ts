@@ -273,7 +273,7 @@ That’s the vibe. 💖
   title: "Finding Your Voice & Advocating for Yourself",
   excerpt: "Speaking up isn’t always easy, but your voice matters. Here’s how to stand strong, be real, and own your story.",
   date: "May 2025",
-  image: "public/assets/blog-voice.webp", // We'll regenerate this image next
+  image: "/assets/blog-voice.webp", // We'll regenerate this image next
   content: `
 # Finding Your Voice & Advocating for Yourself 🎤✨  
 
@@ -327,6 +327,88 @@ So when you feel ready — step up, be real, and speak loud.
 We’re all listening. And we’re here for it. 💜  
 
 *— The OutLoud Teens Team*  
+  `
+},
+
+{
+  id: "6",
+  title: "The Coming Out Checklist",
+  excerpt: "There’s no one right way to come out. If you’re thinking about it, here’s a chill, safety-first checklist to help you feel ready and supported.",
+  date: "Apr 2025",
+  image: "/assets/blog-checklist.webp",
+  content: `
+# The Coming Out Checklist ✅
+
+Real talk: you don’t owe anyone a coming out. Your identity is valid even if it’s *just for you* right now. No deadline, no pressure. Your pace > everyone else’s opinions. 
+
+If you *are* thinking about coming out, here’s a safety-first, no-cap checklist to keep you grounded:
+
+---
+
+## 1) Check Your Headspace 🪞
+- How are you feeling about your identity today? Solid? Still exploring? Both are valid.
+- Do you want to share now, or do you need more time? Either way is fine.
+- You can start small. One person. A text. A note. Low-key is still real.
+
+---
+
+## 2) Safety First, Always 🔒
+- If the convo goes left, do you have a safe place to stay?
+- Any trusted adults, friends, or online spaces that will ride for you?
+- Don’t risk your safety for “acceptance.” Protect your peace, period.
+
+---
+
+## 3) Find Your First Person 🌈
+- Who feels safest to tell first? A bestie, cousin, school counselor, coach?
+- You don’t have to start with family if that feels heavy.
+- Having even one supportive human changes the whole vibe.
+
+---
+
+## 4) Plan the Words (Light Script) 📝
+Not a speech — just a vibe check. Try:
+- “I want to share something important about me…”
+- “This is who I am. I hope you can support me.”
+- If face-to-face is too much, text/DM is valid. No rules.
+
+---
+
+## 5) Pick the Time & Place 🏡
+- Choose a moment when things aren’t chaotic.
+- Private, calm, and safe > public and stressful.
+- You’re in control of how, when, and where. It’s your story.
+
+---
+
+## 6) Prep for Different Reactions 👀
+- Some people need time. That’s about *them*, not your worth.
+- If it turns toxic, you’re allowed to step back. Hard boundaries > constant harm.
+- You can pause the convo anytime. “I’m done talking about this right now.”
+
+---
+
+## 7) Line Up Support 💬
+Tell a trusted person your plan so you’re not solo.
+- The Trevor Project (24/7): 1‑866‑488‑7386 or text START to 678‑678
+- LGBT National Youth Talkline: 1‑800‑246‑7743
+
+Screenshots of support messages, affirmations, and reminders you can reread = clutch.
+
+---
+
+## 8) Post-Convo Care 🧡
+- Hydrate, breathe, music, journal, game, walk — whatever resets you.
+- Celebrate the step you took, even if it was just *planning*. That counts, no cap.
+
+---
+
+## Bottom Line ✨
+Coming out is about living real *for you*. Whisper, shout, text, or wait — it’s all valid. Your identity isn’t on trial. You’re already enough, exactly as you are.
+
+We’re proud of you. Always.
+
+— The OutLoud Teens Team
   `
 },
 

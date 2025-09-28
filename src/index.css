@@ -7,3 +7,24 @@
 body {
   @apply font-sans;
 }
+
+@keyframes kenburns {
+  0%   { transform: scale(1) translate(0, 0); }
+  100% { transform: scale(1.15) translate(2%, -2%); }
+}
+
+.animate-kenburns {
+  animation: kenburns 18s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-kenburns {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+.bg-otl-gradient {
+  background-image: linear-gradient(to right, #ff2aa2, #00e676);
+}

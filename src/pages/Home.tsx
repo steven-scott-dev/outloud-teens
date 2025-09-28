@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import BlogCard from "../components/BlogCard";
 import { blogs } from "../data/blogs";
+import VideoHero from "../components/VideoHero"; // 🚀 new import
 
 const Home = () => {
   // Carousel state - fixed for proper looping
@@ -19,33 +20,10 @@ const Home = () => {
 
   return (
     <div className="min-h-screen">
-      {/* 🌈 Hero Section */}
-      <section className="bg-gradient-to-br from-neonPink via-purple-600 to-neonGreen text-white py-20 px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-heading font-bold mb-6">
-            Speak Loud. Live Real.
-          </h1>
-          <p className="text-xl md:text-2xl mb-8 opacity-90">
-            Your safe space to connect, share, and thrive as your authentic self.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to="/blog"
-              className="bg-white text-neonPink px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition"
-            >
-              Read Stories
-            </Link>
-            <Link
-              to="/resources"
-              className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-neonPink transition"
-            >
-              Find Resources
-            </Link>
-          </div>
-        </div>
-      </section>
+      {/* 🌈 Hero Section (Video) */}
+      <VideoHero />
 
-      {/* 📰 Blog Preview - FIXED CAROUSEL */}
+      {/* 📰 Blog Preview - Carousel */}
       <section className="max-w-6xl mx-auto py-16 px-6">
         <h2 className="text-3xl font-heading font-bold text-center mb-10">
           Latest from the Blog
@@ -70,7 +48,7 @@ const Home = () => {
             →
           </button>
           
-          {/* Carousel Track - FIXED */}
+          {/* Carousel Track */}
           <div className="overflow-hidden mx-12">
             <div 
               className="flex transition-transform duration-300 ease-in-out gap-6"
