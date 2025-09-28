@@ -23,7 +23,7 @@ export default function App() {
           <Route path="/community" element={<Community />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog/:id" element={<BlogDetail />} />
-          <Route path="/resources" element={<Resources />} />
+          
           
         </Routes>
       </main>
