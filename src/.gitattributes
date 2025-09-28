@@ -1,0 +1,26 @@
+# Auto-detect text files and normalize line endings to LF
+* text=auto
+
+# Explicitly declare file types
+*.js     text
+*.jsx    text
+*.ts     text
+*.tsx    text
+*.css    text
+*.html   text
+*.md     text
+*.json   text
+*.yml    text
+*.yaml   text
+
+# Binary files (don’t touch line endings)
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.webp   binary
+*.mp4    binary
+*.mov    binary
+*.pdf    binary
+*.exe    binary
+*.zip    binary
