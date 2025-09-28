@@ -8,7 +8,7 @@ import BlogDetail from "./pages/BlogDetail";
 import Resources from "./pages/Resources";
 import Community from "./pages/Community";
 import Contact from "./pages/Contact";
-import Resources from './pages/Resources';
+
 
 export default function App() {
   return (
